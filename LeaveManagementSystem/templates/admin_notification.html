@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="{{ url_for('static', filename='bootstrap-4.1.2-dist/css/bootstrap.min.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='DataTables-1.10.18/css/dataTables.bootstrap4.min.css') }}">
+		<title>Admin Notifications</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+		  <span class="navbar-brand mb-0 h1">LMS</span>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+			  <li class="nav-item">
+				<a class="nav-link" href="/aDashboard">Dashboard</a>
+			  </li>
+			  <li class="nav-item active">
+				<a class="nav-link" href="/aNotifications">Notifications <span class="sr-only">(current)</span></a>
+
+			  </li>
+			</ul>
+			<form action="/logout" class="form-inline my-2 my-lg-0">
+			  <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Sign Out</button>
+			</form>
+		  </div>
+		</nav>
+		<div class="container" style="margin-top:1%;">
+			<div class="jumbotron" style="padding-top:3%; padding-bottom:3%">
+				<table class="table table-striped table-hover" id="statusTable">
+					<thead>
+						<tr>
+							<th>Request By</th>
+							<th>Designation</th>
+							<th>Leave Type</th>
+							<th>Duration</th>
+							<th>Action</th>
+						</tr>
+					</thead>
+					<tbody>
+						{% for row in rows %}
+							<tr>
+								<td class="align-middle"><a class="text-dark" data-toggle="modal" href="#leaveDetails" data-lid="{{ row[0] }}" data-name="{{ row[1] }}" data-email="{{ row[2] }}" data-uid="{{ row[3] }}" data-department="{{ row[4] }}" data-designation="{{ row[5] }}" data-leavetype="{{ row[6] }}" data-fromdate="{{ row[7] }}" data-todate="{{ row[8] }}" data-brief="{{ row[9] }}">{{ row[1] }}</a></td>
+								<td class="align-middle"><a class="text-dark" data-toggle="modal" href="#leaveDetails" data-lid="{{ row[0] }}" data-name="{{ row[1] }}" data-email="{{ row[2] }}" data-uid="{{ row[3] }}" data-department="{{ row[4] }}" data-designation="{{ row[5] }}" data-leavetype="{{ row[6] }}" data-fromdate="{{ row[7] }}" data-todate="{{ row[8] }}" data-brief="{{ row[9] }}">{{ row[5] }}</a></td>
+								<td class="align-middle"><a class="text-dark" data-toggle="modal" href="#leaveDetails" data-lid="{{ row[0] }}" data-name="{{ row[1] }}" data-email="{{ row[2] }}" data-uid="{{ row[3] }}" data-department="{{ row[4] }}" data-designation="{{ row[5] }}" data-leavetype="{{ row[6] }}" data-fromdate="{{ row[7] }}" data-todate="{{ row[8] }}" data-brief="{{ row[9] }}">{{ row[6] }}</a></td>
+								<td class="align-middle"><a class="text-dark" data-toggle="modal" href="#leaveDetails" data-lid="{{ row[0] }}" data-name="{{ row[1] }}" data-email="{{ row[2] }}" data-uid="{{ row[3] }}" data-department="{{ row[4] }}" data-designation="{{ row[5] }}" data-leavetype="{{ row[6] }}" data-fromdate="{{ row[7] }}" data-todate="{{ row[8] }}" data-brief="{{ row[9] }}">{{ (row[8] - row[7]).days }} Days</a></td>
+								<td class="align-middle">
+									<div class="btn-group" style="width: 100%;" role="group" aria-label="Action">
+										<a role="button" class="btn btn-success btn-sm" style="width: 50%;" href="/aNotifications/approve/{{ row[0] }}">Approve</a>
+										<a role="button" class="btn btn-danger btn-sm" style="width: 50%;" href="/aNotifications/deny/{{ row[0] }}">Deny</a>
+									</div>
+								</td>
+							</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="leaveDetails" tabindex="-1" role="dialog" aria-labelledby="leaveDetailsLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="leaveDetailsLabel">Leave Details</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+			  <div class="modal-body">
+				<div class="form-group row">
+					<label for="staticLID" class="col-sm-2 col-form-label">Leave ID</label>
+					<div class="col">
+						<input type="text" readonly class="form-control" id="staticLID" name="lid">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="staticName" class="col-sm-2 col-form-label">Name</label>
+					<div class="col">
+						<input type="text" readonly class="form-control" id="staticName" name="name">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+					<div class="col">
+						<input type="text" readonly class="form-control" id="staticEmail" name="email">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="staticUID" class="col-sm-2 col-form-label">User ID</label>
+					<div class="col">
+						<input type="text" readonly class="form-control" id="staticUID" name="uid">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="staticDep" class="col-sm-2 col-form-label">Department</label>
+					<div class="col">
+					  <input type="text" readonly class="form-control" id="staticDep" name="department">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="staticDes" class="col-sm-2 col-form-label">Designation</label>
+					<div class="col">
+					  <input type="text" readonly class="form-control" id="staticDes" name="designation">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="staticLT" class="col-sm-2 col-form-label">Leave Type</label>
+					<div class="col">
+					  <input type="text" readonly class="form-control" id="staticLT" name="leavetype">
+					</div>
+				</div>
+				<div class="form-group row">
+				  <label for="fromDate" class="col-sm-2 col-form-label">From</label>
+				  <div class="col">
+					<input type="text" readonly class="form-control" id="fromDate" name="fromdate">
+				  </div>
+				  <label for="toDate" class="col-sm-1 col-form-label">To</label>
+				  <div class="col">
+					<input type="text" readonly class="form-control" id="toDate" name="todate">					  
+				  </div>
+				</div>
+				<div class="form-group row">
+					<label for="inbrief" class="col-sm-2 col-form-label">In Brief</label>
+					<div class="col">
+						<textarea readonly class="form-control" id="inbrief" rows="5" name="brief"></textarea>
+					</div>
+				</div>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+		  </div>
+		</div>					
+		<script src="{{ url_for('static', filename='jquery/jquery-3.3.1.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='popper/popper.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='bootstrap-4.1.2-dist/js/bootstrap.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='DataTables-1.10.18/js/jquery.dataTables.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='DataTables-1.10.18/js/dataTables.bootstrap4.min.js') }}"></script>
+		<script>
+			$(document).ready(function() {
+				$('#statusTable').DataTable();
+			} );
+		</script>
+		<script>
+			$('#leaveDetails').on('show.bs.modal', function (event) {
+			  var anchor = $(event.relatedTarget) // Anchor that triggered the modal
+			  var lid = anchor.data('lid') // Extract info from data-* attributes
+			  var name = anchor.data('name')
+			  var email = anchor.data('email')
+			  var uid = anchor.data('uid')
+			  var department = anchor.data('department')
+			  var designation = anchor.data('designation')
+			  var leavetype = anchor.data('leavetype')
+			  var fromdate = anchor.data('fromdate')
+			  var todate = anchor.data('todate')
+			  var brief = anchor.data('brief')
+			  
+			  var modal = $(this)
+			  modal.find('.modal-body #staticLID').val(lid)
+			  modal.find('.modal-body #staticName').val(name)
+			  modal.find('.modal-body #staticEmail').val(email)
+			  modal.find('.modal-body #staticUID').val(uid)
+			  modal.find('.modal-body #staticDep').val(department)
+			  modal.find('.modal-body #staticDes').val(designation)
+			  modal.find('.modal-body #staticLT').val(leavetype)
+			  modal.find('.modal-body #fromDate').val(fromdate)
+			  modal.find('.modal-body #toDate').val(todate)
+			  modal.find('.modal-body #inbrief').val(brief)
+			})
+		</script>
+	</body>
+</html>

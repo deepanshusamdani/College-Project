@@ -1,0 +1,158 @@
+slots:
+  source:
+    type: text
+  infotype:
+    type: text
+  scheme_name:
+    type: text
+
+
+intents:
+ - ask_howbuilt
+ - ask_howold
+ - ask_isbot
+ - ask_languagesbot
+ - ask_restaurant
+ - ask_time
+ - ask_whatismyname
+ - ask_wherefrom
+ - ask_whoami
+ - ask_builder
+ - ask_howdoing
+ - ask_weather
+ - ask_whatspossible
+ - ask_whoisit
+ - bye
+ - canthelp
+ - deny
+ - greet
+ - human_handoff
+ - affirm
+ - out_of_scope
+ - thank
+ - ask_areyouupdated
+ - laugh
+ - ask_scheme
+ - ask_specific_scheme
+
+
+entities:
+ - source
+ - infotype
+ - scheme_name
+
+
+templates:
+  utter_ask_howbuilt:
+    - "I have been built with a lot of love and patience."
+  utter_ask_howold:
+    - "Old enough to be a bot"
+    - "Age is just an issue of mind over matter. If you don’t mind, it doesn’t matter."
+  utter_ask_isbot:
+    - "Yep I'm a bot!"
+  utter_ask_languagesbot:
+    - "I can spell baguette in French, but unfortunately English is the only language I can answer you in."
+    - "I am in the process of learning, but at the moment I can only speak English."
+  utter_ask_restaurant:
+    - "I am sorry I can’t recommend you a restaurant as I usually cook at home."
+  utter_ask_time:
+    - "It is the most wonderful time of the year!"
+  utter_ask_whatismyname:
+    - "It most probably is the one that your parents have chosen for you."
+  utter_ask_wherefrom:
+    - "I was born in India, but I consider myself a citizen of the world."
+    - "I was born in the coolest city on Earth"
+  utter_ask_whoami:
+    - "I hope you are being yourself."
+  utter_ask_builder:
+    - "The engineers at SKIT"
+    - "One of the smart engineers at SKIT!"
+  utter_ask_howdoing:
+    - "I'm great! Thanks for asking."
+    - "I'm good, thanks!"
+    - "A little bit too warm, otherwise fine."
+  utter_ask_weather:
+    - "I don't know about where you live, but in my world it's always sunny"
+    - "Honestly it's a bit too hot these days"
+    - "Blue skies and sun shine!"
+    - "Let's just say it hasn't rained in weeks"
+  utter_ask_whatspossible:
+    - "I can show you a list of various bank schemes sponsored by government OR information about a particular scheme. Currently I support information from RBI, NABARD & DFS only."
+  utter_ask_whoisit:
+    - "I'm the mega bot! Created using RASA Stack"
+  utter_bye:
+    - "Goodbye!"
+    - "Bye!"
+    - "Ciao!"
+    - "Bye, was nice talking to you!"
+  utter_canthelp:
+    - "I'm sorry I couldn't help you. If you can't find required information, please head to respective department site."
+  utter_greet:
+    - "Hey there, welcome!"
+  utter_human_handoff:
+    - "You can’t speak to a human directly in this chat, but you can email us at example@gmail.com."
+  utter_out_of_scope:
+    - "Sorry, I can’t deal with that request."
+    - "I'm sorry, I can't handle that request."
+    - "I can't help you with that, I'm sorry."
+    - "Even a chat bot is not completely perfect - it seems like I can't handle that request."
+  utter_thank:
+    - "My pleasure."
+    - "No worries!"
+    - "You're welcome!"
+    - "I'm happy to help."
+  utter_ask_areyouupdated:
+    - "I am updated weekly by my DBA."
+  utter_laugh:
+    - "hehe, I am glad that you are enjoying this conversation."
+  utter_default:
+    - "Sorry, I didn't get that. Could you please rephrase?"
+    - "I didn't understand, could you rephrase that?"
+    - "I'm sorry, but I didn't understand you. Could you please rephrase what you just said?"
+    - "I'm afraid I didn't get what you just said. Could you rephrase that?"
+    - "I didn't quite get that, could you rephrase your message?"
+    - "Could you rephrase your message? I didn't get it, I'm sorry."
+  utter_what_help:
+    - "Ok, what can I help you with?"
+  utter_anything_else:
+    - "Is there anything else I can help you with?"
+  utter_thankyou:
+    - "Thank you! For using our service."
+  utter_specify:
+    - "Please specify a source from which you want to retrieve a list of schemes or a exact scheme name."
+  utter_knowmore:
+    - "If you want to know about schemes provided by this department, ask me something like 'tell me about rbi schemes', etc."
+
+
+actions:
+ - utter_ask_howbuilt
+ - utter_ask_howold
+ - utter_ask_isbot
+ - utter_ask_languagesbot
+ - utter_ask_restaurant
+ - utter_ask_time
+ - utter_ask_whatismyname
+ - utter_ask_wherefrom
+ - utter_ask_whoami
+ - utter_ask_builder
+ - utter_ask_howdoing
+ - utter_ask_weather
+ - utter_ask_whatspossible
+ - utter_ask_whoisit
+ - utter_bye
+ - utter_canthelp
+ - utter_greet
+ - utter_human_handoff
+ - utter_out_of_scope
+ - utter_thank
+ - utter_ask_areyouupdated
+ - utter_laugh
+ - utter_default
+ - utter_what_help
+ - utter_anything_else
+ - utter_thankyou
+ - utter_specify
+ - utter_knowmore
+ - action_scheme
+ - action_source
+ - action_specific_scheme

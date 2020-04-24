@@ -1,0 +1,90 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "scheme_name",
+        "infotype",
+        "source"
+      ]
+    },
+    "action_scheme": {
+      "slots": [
+        "infotype",
+        "source"
+      ]
+    },
+    "action_specific_scheme": {
+      "slots": [
+        "scheme_name"
+      ]
+    },
+    "utter_human_handoff": {
+      "slots": []
+    },
+    "utter_bye": {
+      "slots": []
+    },
+    "utter_ask_languagesbot": {
+      "slots": []
+    },
+    "utter_ask_howdoing": {
+      "slots": []
+    },
+    "utter_laugh": {
+      "slots": []
+    },
+    "utter_ask_isbot": {
+      "slots": []
+    },
+    "utter_ask_builder": {
+      "slots": []
+    },
+    "utter_ask_whatspossible": {
+      "slots": []
+    },
+    "utter_out_of_scope": {
+      "slots": []
+    },
+    "utter_ask_howold": {
+      "slots": []
+    },
+    "action_source": {
+      "slots": [
+        "source"
+      ]
+    },
+    "utter_knowmore": {
+      "slots": []
+    },
+    "utter_what_help": {
+      "slots": []
+    },
+    "utter_ask_areyouupdated": {
+      "slots": []
+    },
+    "utter_anything_else": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "utter_ask_restaurant": {
+      "slots": []
+    },
+    "utter_ask_howbuilt": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.12.4",
+  "python": "3.6.8",
+  "max_histories": [
+    5,
+    3
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ],
+  "trained_at": "20190429-192511"
+}

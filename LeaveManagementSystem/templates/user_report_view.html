@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="{{ url_for('static', filename='bootstrap-4.1.2-dist/css/bootstrap.min.css') }}">
+		<title>View Report</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+		  <span class="navbar-brand mb-0 h1">LMS</span>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+			  <li class="nav-item">
+				<a class="nav-link" href="/uDashboard">Dashboard</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="/ReqLeave">Request Leave</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="/uNotifications">Notifications</a>
+			  </li>
+			  <li class="nav-item active">
+				<a class="nav-link" href="/uReports">View Report <span class="sr-only">(current)</span></a>
+			  </li>
+			</ul>
+			<form action="/logout" class="form-inline my-2 my-lg-0">
+			  <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Sign Out</button>
+			</form>
+		  </div>
+		</nav>
+		<div class="container" style="margin-top:1%;">
+			<div class="jumbotron" style="text-align:center;">
+				
+			</div>
+		</div>
+		<script src="{{ url_for('static', filename='jquery/jquery-3.3.1.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='popper/popper.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='bootstrap-4.1.2-dist/js/bootstrap.min.js') }}"></script>
+	</body>
+</html>

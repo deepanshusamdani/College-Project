@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Chatbot for e-Governance</title>
+</head>
+<body>
+<button onclick="WebChat.open()">Launch Bot</button>
+<div id="webchat"/>
+<script src="https://storage.googleapis.com/mrbot-cdn/webchat-latest.js"></script>
+<script>
+  WebChat.default.init({
+    selector: "#webchat",
+    initPayload: "/ui_test.html",
+    interval: 1000, // 1000 ms between each message
+    socketUrl: "http://localhost:5005",
+    socketPath: "/socket.io/",
+    title: "Title",
+    subtitle: "Subtitle",
+    inputTextFieldHint: "Type a message...",
+    connectingText: "Waiting for server...",
+    hideWhenNotConnected: true,
+    fullScreenMode: false,
+    profileAvatar: "https://rasa.com/assets/img/demo/sara_avatar.png",
+    params: {
+      images: {
+        dims: {
+          width: 300,
+          height: 200,
+        }
+      },
+      storage: "local"
+    }
+  })
+</script>
+</body>
+</html>

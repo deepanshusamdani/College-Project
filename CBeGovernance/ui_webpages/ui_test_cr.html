@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Chatbot for e-Governance</title>
+<link rel="stylesheet" href="Chatroom.css" />
+</head>
+<body>
+<div class="chat-container"></div>
+
+<script src="Chatroom.js"/></script>
+<script type="text/javascript">
+	var chatroom = window.Chatroom({
+	  host: "http://localhost:5005",
+	  title: "Chatbot for e-Governance",
+	  container: document.querySelector(".chat-container"),
+	  speechRecognition: "en-US"
+	});
+	chatroom.openChat();
+</script>
+</body>
+</html>

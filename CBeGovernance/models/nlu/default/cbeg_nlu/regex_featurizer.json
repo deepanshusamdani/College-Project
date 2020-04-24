@@ -1,0 +1,10 @@
+[
+    {
+        "name": "source",
+        "pattern": "(?i)(\\brbi\\b|\\bdfs\\b|\\bnabard\\b)"
+    },
+    {
+        "name": "scheme_name",
+        "pattern": "(?i)(\\bDairy\\ Entrepreneurship\\ Development\\ Scheme\\b|\\bCapital\\ Investment\\ Subsidy\\ Scheme\\b|\\bAgriclinic\\ and\\ Agribusiness\\ Centres\\ Scheme\\b|\\bNational\\ Livestock\\ Mission\\b|\\bEnsuring\\ End\\ Use\\ of\\ Subsidy\\ Released\\b|\\bInterest\\ Subvention\\ Scheme\\b|\\bNew\\ Agricultural\\ Marketing\\ Infrastructure\\b|\\bCredit\\ Linked\\ Capital\\ Subsidy\\ Scheme\\b|\\bDeendayal\\ Antyodaya\\ Yojana\\b|\\bDeendayal\\ Antyodaya\\ Yojana\\ in\\ NULM\\b|\\bLead\\ Bank\\ Scheme\\b|\\bKisan\\ Credit\\ Card\\ Scheme\\b|\\bPradhan\\ Mantri\\ Jan\\ Dhan\\ Yojana\\b|\\bFrom\\ Jan\\ Dhan\\ to\\ Jan\\ Suraksha\\b|\\bPradhan\\ Mantri\\ Jeevan\\ Jyoti\\ Bima\\ Yojana\\b|\\bPradhan\\ Mantri\\ Suraksha\\ Bima\\ Yojana\\b|\\bAtal\\ Pension\\ Yojana\\b|\\bPradhan\\ Mantri\\ Mudra\\ Yojana\\b|\\bStand\\ Up\\ India\\ Scheme\\b|\\bPradhan\\ Mantri\\ Vaya\\ Vandana\\ Yojana\\b)"
+    }
+]

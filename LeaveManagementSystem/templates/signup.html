@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="{{ url_for('static', filename='bootstrap-4.1.2-dist/css/bootstrap.min.css') }}">
+		<title>Sign Up</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="jumbotron">
+			  <h1 class="display-4">Sign Up</h1>
+			  <p class="lead">Enter the required information to sign up for Leave Management System.</p>
+			</div>
+		</div>
+		<div class="container">
+			{% with messages = get_flashed_messages() %}
+				{% if messages %}
+					{% for message in messages %}
+						<div class="alert alert-dark alert-dismissible fade show" role="alert">
+							{{ message | safe }}
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+					{% endfor %}
+				{% endif %}
+			{% endwith %}
+		</div>
+		<div class="container">
+			<form method="post">
+			  <div class="form-group row">
+			  <label class="col-sm-1 col-form-label">Name</label>
+				<div class="col">
+				  <input type="text" class="form-control" placeholder="First name" required name="fname" value="{{request.form.fname}}">
+				</div>
+				<div class="col">
+				  <input type="text" class="form-control" placeholder="Last name" required name="lname" value="{{request.form.lname}}">
+				</div>
+			  </div>
+			  <div class="form-group row">
+				<label for="inputEmail" class="col-sm-1 col-form-label">Email</label>
+				<div class="col">
+				  <input type="email" class="form-control" id="inputEmail" placeholder="Email" required name="email" value="{{request.form.email}}">
+				  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+				</div>
+			  </div>
+			  <div class="form-group row">
+				<label for="inputPassword" class="col-sm-1 col-form-label">Password</label>
+				<div class="col">
+				  <input type="password" class="form-control" id="inputPassword" placeholder="Password" required name="password" value="{{request.form.password}}">
+				</div>
+			  </div>
+			  <div class="form-group row">
+				  <label for="inputDepartment" class="col-sm-1 col-form-label">Department</label>
+					<div class="col">
+						<select id="inputDepartment" class="form-control" name="department" value="{{request.form.department}}">
+							<option selected>Choose...</option>
+							<option>Department 1</option>
+							<option>Department 2</option>
+							<option>Department 3</option>
+						</select>
+					</div>
+			  </div>
+			  <div class="form-group row">
+				  <label for="inputDesignation" class="col-sm-1 col-form-label">Designation</label>
+					<div class="col">
+						<select id="inputDesignation" class="form-control" name="designation" value="{{request.form.designation}}">
+							<option selected>Choose...</option>
+							<option>Designation 1</option>
+							<option>Designation 2</option>
+							<option>Designation 3</option>
+						</select>
+					</div>
+			  </div>
+			  <div class="form-group row">
+				<div class="col">
+				  <button type="submit" class="btn btn-primary">Sign Up</button>
+				</div>
+			  </div>
+			</form>
+		</div>
+		<script src="{{ url_for('static', filename='jquery/jquery-3.3.1.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='popper/popper.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='bootstrap-4.1.2-dist/js/bootstrap.min.js') }}"></script>
+	</body>
+</html>

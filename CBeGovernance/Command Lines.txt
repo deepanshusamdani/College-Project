@@ -1,0 +1,17 @@
+Running webchat server:
+
+python -m rasa_core.run -d models/dialogue -u models/nlu/default/cbeg_nlu --endpoints endpoints.yml --credentials credentials_wc.yml
+
+Use this, if you want to change socketio port -> --port 5002
+
+Running chatroom server:
+
+python -m rasa_utils.bot -d models/dialogue -u models/nlu/default/cbeg_nlu --endpoints endpoints.yml
+
+Running action server:
+
+python -m rasa_core_sdk.endpoint --actions actions
+
+Converting data.md to data.json:
+
+python -m rasa_nlu.convert --data_file data.md --out_file data.json --format json

@@ -1,0 +1,4932 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you built?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you made?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "Tell me how you were made?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "Let me know how you were made exactly"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "I'd like to know how you were created"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "Can you give me an idea as to how you were created?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "I want to know how you were formed"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "What was the process for making you?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "Can you explain how you were created?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "Specify how you were created?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "I'd like to know how you were put together?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "Can you say how you were constructed?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you made?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "in what way were you made?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you made into who you are?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you devised?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How exactly were you made?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How exactly were you devised?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "so how were you made?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How did you come to be?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you made?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you constructed?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you formed?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How did they make you?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How did they build you?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How did they create you?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you made?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "Do you know how you were made?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "Do you know how you were built?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "What process was used to create you?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "What process was used to build you?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How did you come into being?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you conceived?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "In which manner were you devised?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you constructed?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "In what way were you shaped?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you formed?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "By what means were you made?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "You originated through what means?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you set up?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "By what method were you fashioned?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "whats your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how old?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "what's your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "when were you born?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "what is your birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "when is your birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how many years old are you?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "do you know how old you are?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "what is your exact age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "what year were you born?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "can you tell me your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "What is your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "What is your birthdate?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How old will you be on your next birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "When do you celebrate your day of birth?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How old were you on your last birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How many candles were on your last birthday cake?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Do you have friends the same age as you, if so, how old are they?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Tell me your day, month and year of birth."
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Whats your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "and you are how many years old?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "whats your birth year?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "what age were you when you celebrated your last birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how old were you when you celebrated your last birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "tell me your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how about your age"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how old were you on your last birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "what age are you"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how old will you be this year?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "What is your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "What year were you born?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How long have you been around?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How long have you been alive?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "What was your age on your last birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "What will be your age on your next birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How many years have you lived?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How many years have you been alive?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How long have you occupied the earth?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a real bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a bot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you really a bot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a robot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a robot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a rasa bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a rasa bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "what are you, a bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "tell me, are you a bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a Skynet ?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a chatbot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you ai"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you artificial intelligence"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you artificial"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "i guess you are a chatbot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "you are a robot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "you are ai"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "you are chatbot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you bot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a bot ?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "you're a bot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Are you the bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Hi there, are you the bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Are you a chat bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you rasa bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Ar you a bot ?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you robot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you real"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "What are you ?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "So I'm here Today to ask one very simple question, what are you ?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you real lol"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "cuz you are a bot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "oh are you chatbot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you sure that you're a bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a BOT"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Which languages do you speak?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What are the languages you can speak?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "In which languages can you speak?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages do you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages are you fluent in?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "In which languages are you fluent?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages can you converse in?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages do you know how to use?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Which languages are you familiar with?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages can you use?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages are you familiar with?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "In what languages are you fluent enough?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages you can speak ?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages are you comfortable speaking at?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages are you good at speaking?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages you are well versed ?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages you can be comfortable speaking?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages you prefer more speaking at?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages you can handle well?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Do you know any other languages?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Do you speak any other languages?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages do you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages do you speak?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What do you speak?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Speak any other languages?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Can you communicate in any other languages?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages can you communicate in?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "How many languages do you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages do you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "tell me some languages you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "do you speak any other languages?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what else do you know besides English?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "are you bilingual?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "are you multilingual?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what foreign languages do you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what foreign languages are you fluent in?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "In which language I can interact with you?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "restaurants"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "can i be shown a gluten free restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "i want a french restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "i'm looking for a Chinese restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "I need a new restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "help me find restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "I'm gonna need help finding a restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Hey help me find a restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "How can you help me find a restaurant."
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Where is the restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Show me how to find a restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "I need to find this restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Help me with finding this restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Hey, can you help me with locating this restaurant."
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Find me a place to eat"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Can you recommend a restaurant open right now"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "What's the closest restaurant open near me"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "I am hungry, find me some place to go"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Suggest me a good restaurant around"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Show me the closest open restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "What's a good place to eat nearby"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Recommend me a restaurant around here."
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Pick a restaurant for me, please"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Help me find a restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Can you find a restaurant for me?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Find a restaurant for me?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Would you find me a restaurant?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Would you find a restaurant for me?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Could you find me a restaurant?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Could you find a restaurant for me?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Could you find me a restaurant to eat at?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Find a restaurant for me to eat at."
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Find me a restaurant where I can eat."
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Find a restaurant for me where I can eat."
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "I need a restaurant."
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Can you find me a restaurant?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Where should I eat?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "what is the current time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "what is the time in Sydney?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "whats the time now"
+      },
+      {
+        "intent": "ask_time",
+        "text": "what is the time ?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "what is time in US ?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "what is time is US ?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "what is time is USA ?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "what time it is"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What is the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Can you give me the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Do you know the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Can you tell the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Give me the time."
+      },
+      {
+        "intent": "ask_time",
+        "text": "Tell me the time."
+      },
+      {
+        "intent": "ask_time",
+        "text": "Could you tell me what time is it?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Excuse me, what time is it?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Do you know what time it is?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Could you tell me the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Could you tell me the time, please?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What is the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Do you know the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Would you tell me what time it is?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Time, please!"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Pardon me, but do you know the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What's the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Do you know what time it is?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What's the current time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What time is it right now?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Do you have the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Can you tell me what time it is?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Hi, I need the time."
+      },
+      {
+        "intent": "ask_time",
+        "text": "I need to know what time it is."
+      },
+      {
+        "intent": "ask_time",
+        "text": "Tell me the time."
+      },
+      {
+        "intent": "ask_time",
+        "text": "What is the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What's the time right now?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What is the current time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Can you tell me the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What might the time be?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What is the hour and minute right now?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What time have we got?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What time is it right now?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "I want to know what is the actual time right now"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "what is my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "May i know my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What is my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What do I call myself?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Tell me my name."
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Explain my name to me."
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What could be my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What name do I go by?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What name should I recognize for myself?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "what's my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "can you tell me my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What is my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Do I have a name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Do I have a name? What is it?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What was I named?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Say my name."
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Do you know my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What do people call me?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Can you tell me my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What else do people call me?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "I have a name, what is it?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Tell me my name"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "I'd like to know my name"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Inform me what my name is"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Please let me know what my name is"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Can you tell me what I am called?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "I'd like to know what my name is"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What is the name I was given?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What does everyone call me?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What am I called?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What did my parents name me?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What do my colleagues call me?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What would be the name on my tombstone?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Do you know what my name is?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What is my first name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What is my full name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What do people call me?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What exactly is my name?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "where do you live"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "where are you from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "So where are you from"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where are you?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where were you born?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What city were you born in?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where did you grow up?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What state were you born in?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What country were you born in?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where do you come from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where were you at before you were here?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Do you know where you come from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "where's your home town?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "what country are you from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "are you from around here?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "where did you grow up?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "where are your parents from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "where did you spend your youth?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "where did you come from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where were you born?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where do you consider home?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What city do you claim to for your birth?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What citizenship do you lay claim to?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What is your heritage?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What is your birthplace?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where did you grow up?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "You were conceived in what location?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What is your root?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What is your origin?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "From where did you come?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where did you come from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where did you originate?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where are your roots?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where are your origins?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What area are you from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What location are you from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What's the name of the place you came from?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Who am I?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Okay who am I?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "WHo am I"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Tell me who am I?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Tell me who I am?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Do you know who I am?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Can you tell me who I am?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "How do I discover who I am?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "How can I determine who I am?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Do you know who am I?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Can you tell me who am I?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "How do I discover who am I?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "How can I determine who am I?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "who are I ?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "who may i ?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Shall i know who am i?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Tell me who I am."
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "How do I identify myself?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Who could I be?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "tell me who I am?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "what's my identity?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "tell me what my identity is?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "can you tell me what I am?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "can you tell me what my identity is?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "can you tell me who I am?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "who am i"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "can you share your boss with me?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "i want to get to know your owner"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "i want to know the company which designed you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "i want to know the company which generated you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "i want to know the company which invented you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "i want to know who invented you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "May I ask who invented you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "please tell me the company who created you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "please tell me who created you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "tell me more about your creators"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "tell me more about your founders"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "which company brought you into existence?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "which company created you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "which company invented you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who's your boss?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who's your builder?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who built you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who created you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who is your creator?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who designed you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who do you work for?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who fabricated you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who generated you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who had the idea to build you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who had the idea to generate you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who had the idea to make you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who is behind all this?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who is the legal owner of you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who is your boss tell me"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who is your boss?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who is your creator?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who is your programmer?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who made you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who modeled you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who owns you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who produced you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who thought to make you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who went through the trouble of setting you up?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "and who built u?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who built you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who build yoi"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who made you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "where were you made?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "why were you made?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "how were you made?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who created you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Ahoy matey how are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "are you alright"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "are you having a good day"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Are you ok?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "are you okay"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Do you feel good?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are things going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are things with you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are things?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing this morning"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you feeling"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you today"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how do you do?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how have you been"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is it going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is your day"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is your day going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is your evening"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How was your day?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How's it going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How's it hanging?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how's life"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how's life been treating you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How's life treating you friend?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how's your day going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How've you been?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "I'm fine and you"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "is everything all right"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Is everything ok?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "is everything okay"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "what about your day"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "What's going on?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "what's good"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "What's new?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "What's up man"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "What's up"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Do you have a great day?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing today my sweet friend"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are u"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are you?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "How is the weather today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "What's the weather like?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "How is the weather?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "What is the weather at your place?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Do you have good weather?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Is it raining?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "What's it like out there?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Is it hot or cold?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Beautiful day, isn't it?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "What's the weather forecast?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Is it quite breezy outside?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Will I require my raincoat today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "What is the weather for tomorrow?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Nice day out today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "What is the temperature today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Can we expect any thunderstorms?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Will the skies be clear today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Are we in for a scorcher?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Looks like a beautiful day hey?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Will we build a snowman today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Is it humid out there today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Are there any meteorological changes that I need to be aware of?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "whats the weather like tomorrow"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "hows the weather in bot world"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "how is the weather in berlin?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what's the weather today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "how's the weather?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what's the weather like where you are?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "is the sun out where you are?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "is it sunny"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "is the sun out where zou are?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what\"s the weather"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "whats the weather in berlin?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "how's the weather in berlin"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "help"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "help please"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "i don't know what i want"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "I need some help"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "options"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "show me the menu"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "show me what's possible"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "so what can you do"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "so what can you help me with?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what are you good at?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what can I do here"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what can I do with this bot"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what is this bot for"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "cool! can I do something else here?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "help me"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "talk to me!"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "come back"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "how can you help me"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what else can i do"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "are there any other options?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "hm that doesnt quite help me is there anything else you can do?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what can i do here"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what can i do now"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "um what now"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "so now what"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "help?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "now what?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "Great, is there anything else you can do, bot?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what can you do?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "how can you help me?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "can you do anything else?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "i asked you if you can do anything else"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "anything els"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "so what next?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what else can I do here?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "Can you explain me in one sentence what you are doing?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what are the options?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what kind of information can you give me?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "which request can you handle?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "tell me about all the possible activities you can perform"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what is possible for you"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "tell me the basic function of this bot"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what can you tell me about yourself?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who is this"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who am i talking to"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "what's your name"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who am i speaking with"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who r u"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "what's your name bot"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "whats ur name"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "what are you called?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who is talking?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who speaks?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who talks?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who are you and what do you want from me"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who are you?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who is it?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who are u?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who are you"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "I want to know who you are"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who are y"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "yes but who are you in your heart"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "are you a bot?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who is this?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "hi! what's your name?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "tell me about yourself"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "ok, tell me your name"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "tell me about this bot project"
+      },
+      {
+        "intent": "bye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "bye",
+        "text": "goodnight"
+      },
+      {
+        "intent": "bye",
+        "text": "good bye"
+      },
+      {
+        "intent": "bye",
+        "text": "good night"
+      },
+      {
+        "intent": "bye",
+        "text": "see ya"
+      },
+      {
+        "intent": "bye",
+        "text": "toodle-oo"
+      },
+      {
+        "intent": "bye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "bye",
+        "text": "gotta go"
+      },
+      {
+        "intent": "bye",
+        "text": "farewell"
+      },
+      {
+        "intent": "bye",
+        "text": "catch you later"
+      },
+      {
+        "intent": "bye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "bye",
+        "text": "bye"
+      },
+      {
+        "intent": "bye",
+        "text": "bye was nice talking to you"
+      },
+      {
+        "intent": "bye",
+        "text": "bye udo"
+      },
+      {
+        "intent": "bye",
+        "text": "bye bye bot"
+      },
+      {
+        "intent": "bye",
+        "text": "bye bot"
+      },
+      {
+        "intent": "bye",
+        "text": "k byyye #slay"
+      },
+      {
+        "intent": "bye",
+        "text": "tlak to you later"
+      },
+      {
+        "intent": "bye",
+        "text": "ciao"
+      },
+      {
+        "intent": "bye",
+        "text": "Bye bye"
+      },
+      {
+        "intent": "bye",
+        "text": "then bye"
+      },
+      {
+        "intent": "bye",
+        "text": "tschüssikowski"
+      },
+      {
+        "intent": "bye",
+        "text": "bye!"
+      },
+      {
+        "intent": "bye",
+        "text": "byeeeee"
+      },
+      {
+        "intent": "bye",
+        "text": "byyyyyyeeee"
+      },
+      {
+        "intent": "bye",
+        "text": "sayonara!"
+      },
+      {
+        "intent": "canthelp",
+        "text": "ok then you cant help me"
+      },
+      {
+        "intent": "canthelp",
+        "text": "that was shit, you're not helping"
+      },
+      {
+        "intent": "canthelp",
+        "text": "you can't help me"
+      },
+      {
+        "intent": "canthelp",
+        "text": "you can't help me with what i need"
+      },
+      {
+        "intent": "canthelp",
+        "text": "i guess you can't help me then"
+      },
+      {
+        "intent": "canthelp",
+        "text": "ok i guess you can't help me"
+      },
+      {
+        "intent": "canthelp",
+        "text": "that's not what i want"
+      },
+      {
+        "intent": "canthelp",
+        "text": "ok, but that doesnt help me"
+      },
+      {
+        "intent": "canthelp",
+        "text": "this is leading to nothing"
+      },
+      {
+        "intent": "canthelp",
+        "text": "this conversation is not really helpful"
+      },
+      {
+        "intent": "canthelp",
+        "text": "you cannot help me with what I want"
+      },
+      {
+        "intent": "canthelp",
+        "text": "I think you cant help me"
+      },
+      {
+        "intent": "canthelp",
+        "text": "hm i don't think you can do what i want"
+      },
+      {
+        "intent": "canthelp",
+        "text": "stop"
+      },
+      {
+        "intent": "canthelp",
+        "text": "stop go back"
+      },
+      {
+        "intent": "canthelp",
+        "text": "do you get anything?"
+      },
+      {
+        "intent": "canthelp",
+        "text": "and you call yourself bot company? pff"
+      },
+      {
+        "intent": "canthelp",
+        "text": "and that's it?"
+      },
+      {
+        "intent": "canthelp",
+        "text": "nothing else?"
+      },
+      {
+        "intent": "canthelp",
+        "text": "nice chat with you but not too good"
+      },
+      {
+        "intent": "canthelp",
+        "text": "i wonder what happened to you"
+      },
+      {
+        "intent": "canthelp",
+        "text": "damm"
+      },
+      {
+        "intent": "canthelp",
+        "text": "damm it"
+      },
+      {
+        "intent": "canthelp",
+        "text": "i am disappointed with you"
+      },
+      {
+        "intent": "canthelp",
+        "text": "go to hell"
+      },
+      {
+        "intent": "canthelp",
+        "text": "i expected more from you"
+      },
+      {
+        "intent": "canthelp",
+        "text": "sad, you couldn't provide me the information i wanted"
+      },
+      {
+        "intent": "canthelp",
+        "text": "sad"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "definitely not"
+      },
+      {
+        "intent": "deny",
+        "text": "never"
+      },
+      {
+        "intent": "deny",
+        "text": "absolutely not"
+      },
+      {
+        "intent": "deny",
+        "text": "i don't think so"
+      },
+      {
+        "intent": "deny",
+        "text": "i'm afraid not"
+      },
+      {
+        "intent": "deny",
+        "text": "no sir"
+      },
+      {
+        "intent": "deny",
+        "text": "no ma'am"
+      },
+      {
+        "intent": "deny",
+        "text": "no way"
+      },
+      {
+        "intent": "deny",
+        "text": "no sorry"
+      },
+      {
+        "intent": "deny",
+        "text": "No, not really."
+      },
+      {
+        "intent": "deny",
+        "text": "nah not for me"
+      },
+      {
+        "intent": "deny",
+        "text": "nah"
+      },
+      {
+        "intent": "deny",
+        "text": "no and no again"
+      },
+      {
+        "intent": "deny",
+        "text": "no go"
+      },
+      {
+        "intent": "deny",
+        "text": "no thanks"
+      },
+      {
+        "intent": "deny",
+        "text": "decline"
+      },
+      {
+        "intent": "deny",
+        "text": "deny"
+      },
+      {
+        "intent": "deny",
+        "text": "i decline"
+      },
+      {
+        "intent": "deny",
+        "text": "never mind"
+      },
+      {
+        "intent": "deny",
+        "text": "I'm not giving you my email address"
+      },
+      {
+        "intent": "deny",
+        "text": "no I haven't decided yet if I want to sign up"
+      },
+      {
+        "intent": "deny",
+        "text": "I don't want to give it to you"
+      },
+      {
+        "intent": "deny",
+        "text": "I'm not going to give it to you"
+      },
+      {
+        "intent": "deny",
+        "text": "no i don't accept"
+      },
+      {
+        "intent": "deny",
+        "text": "no!!!!"
+      },
+      {
+        "intent": "deny",
+        "text": "no you did it wrong"
+      },
+      {
+        "intent": "deny",
+        "text": "no i can't"
+      },
+      {
+        "intent": "deny",
+        "text": "i'm not sure"
+      },
+      {
+        "intent": "deny",
+        "text": "NEIN"
+      },
+      {
+        "intent": "deny",
+        "text": "nein"
+      },
+      {
+        "intent": "deny",
+        "text": "not really"
+      },
+      {
+        "intent": "deny",
+        "text": "i guess it means - no"
+      },
+      {
+        "intent": "deny",
+        "text": "i don't want to"
+      },
+      {
+        "intent": "deny",
+        "text": "i don't want either of those"
+      },
+      {
+        "intent": "deny",
+        "text": "nah thanks"
+      },
+      {
+        "intent": "deny",
+        "text": "neither of these"
+      },
+      {
+        "intent": "deny",
+        "text": "nothing"
+      },
+      {
+        "intent": "deny",
+        "text": "nothing, dude"
+      },
+      {
+        "intent": "deny",
+        "text": "nothing bro"
+      },
+      {
+        "intent": "deny",
+        "text": "nope"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi again"
+      },
+      {
+        "intent": "greet",
+        "text": "hi folks"
+      },
+      {
+        "intent": "greet",
+        "text": "hi Mister"
+      },
+      {
+        "intent": "greet",
+        "text": "hi pal!"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hello everybody"
+      },
+      {
+        "intent": "greet",
+        "text": "hello is anybody there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello robot"
+      },
+      {
+        "intent": "greet",
+        "text": "hallo"
+      },
+      {
+        "intent": "greet",
+        "text": "heeey"
+      },
+      {
+        "intent": "greet",
+        "text": "hi hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hey hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "yo"
+      },
+      {
+        "intent": "greet",
+        "text": "hola"
+      },
+      {
+        "intent": "greet",
+        "text": "hi?"
+      },
+      {
+        "intent": "greet",
+        "text": "hey bot!"
+      },
+      {
+        "intent": "greet",
+        "text": "hello friend"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hii"
+      },
+      {
+        "intent": "greet",
+        "text": "hello sweet boy"
+      },
+      {
+        "intent": "greet",
+        "text": "yoo"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hiihihi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello sweatheart"
+      },
+      {
+        "intent": "greet",
+        "text": "hellooo"
+      },
+      {
+        "intent": "greet",
+        "text": "helloooo"
+      },
+      {
+        "intent": "greet",
+        "text": "heyo"
+      },
+      {
+        "intent": "greet",
+        "text": "ayyyy whaddup"
+      },
+      {
+        "intent": "greet",
+        "text": "hello?"
+      },
+      {
+        "intent": "greet",
+        "text": "Hallo"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "Hellllooooooo"
+      },
+      {
+        "intent": "greet",
+        "text": "whats up"
+      },
+      {
+        "intent": "greet",
+        "text": "Hei"
+      },
+      {
+        "intent": "greet",
+        "text": "Well hello there ;)"
+      },
+      {
+        "intent": "greet",
+        "text": "I said, helllllloooooO!!!!"
+      },
+      {
+        "intent": "greet",
+        "text": "Heya"
+      },
+      {
+        "intent": "greet",
+        "text": "Whats up my bot"
+      },
+      {
+        "intent": "greet",
+        "text": "hiiiiiiiiii"
+      },
+      {
+        "intent": "greet",
+        "text": "heyho"
+      },
+      {
+        "intent": "greet",
+        "text": "hey, let's talk"
+      },
+      {
+        "intent": "greet",
+        "text": "hey let's talk"
+      },
+      {
+        "intent": "greet",
+        "text": "jojojo"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "hello it is me again"
+      },
+      {
+        "intent": "greet",
+        "text": "what up"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "jop"
+      },
+      {
+        "intent": "greet",
+        "text": "hi friend"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there it's me"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "I want to talk to a human"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "let me speak with a real person please"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "are there also humans working for your company?"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "gimme a proper human"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "I don't wanna talk to a bot"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "Can I speak to anyone who can really help me?"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "I dont like to talk to a machine"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "can you please connect me to a real rasa employee?"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "give me a human now"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "that's annoying I'd like to speak to someone real"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "i would like to speak to a person"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "can you put me in touch with a human?"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "let me talk to a human"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "id like to talk to a real rasa employee"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "i dont wanna talk to a bot"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "talking to a bot is stupid"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "i want to talk to someone who is smarter than you"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "can i please speak to a human?"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "i'd rather speak with a real rasa employee"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "i want to talk to someone else"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "let me talk to a real person"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "please give me a human"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "i want to talk to a person"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "customer service"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "i want to speak to customer service"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "someone from customer care"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "can you forward me to your team"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "service agent"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "human handoff"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "give me a human"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "speak to a real person"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "i want to speak to a real person"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "wrong i want to speak to a human"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "Could I talk to Akela?"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "i want to talk to someone at rasa"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "i want to speak to a manager"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "I want to talk to the founders"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "i want to talk to a human"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "of course"
+      },
+      {
+        "intent": "affirm",
+        "text": "sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "okay"
+      },
+      {
+        "intent": "affirm",
+        "text": "cool"
+      },
+      {
+        "intent": "affirm",
+        "text": "go for it"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep, will do thank you"
+      },
+      {
+        "intent": "affirm",
+        "text": "I'm sure I will!"
+      },
+      {
+        "intent": "affirm",
+        "text": "oh awesome!"
+      },
+      {
+        "intent": "affirm",
+        "text": "Yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "accept"
+      },
+      {
+        "intent": "affirm",
+        "text": "I accept"
+      },
+      {
+        "intent": "affirm",
+        "text": "i accept"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok i accept"
+      },
+      {
+        "intent": "affirm",
+        "text": "I changed my mind. I want to accept it"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok cool"
+      },
+      {
+        "intent": "affirm",
+        "text": "alright"
+      },
+      {
+        "intent": "affirm",
+        "text": "i will!"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok, I behave now"
+      },
+      {
+        "intent": "affirm",
+        "text": "yop"
+      },
+      {
+        "intent": "affirm",
+        "text": "oki doki"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes please"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes please!"
+      },
+      {
+        "intent": "affirm",
+        "text": "jo"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep if i have to"
+      },
+      {
+        "intent": "affirm",
+        "text": "amayzing"
+      },
+      {
+        "intent": "affirm",
+        "text": "confirm"
+      },
+      {
+        "intent": "affirm",
+        "text": "nice"
+      },
+      {
+        "intent": "affirm",
+        "text": "coolio"
+      },
+      {
+        "intent": "affirm",
+        "text": "definitely yes without a doubt"
+      },
+      {
+        "intent": "affirm",
+        "text": "yas"
+      },
+      {
+        "intent": "affirm",
+        "text": "yup"
+      },
+      {
+        "intent": "affirm",
+        "text": "perfect"
+      },
+      {
+        "intent": "affirm",
+        "text": "sure thing"
+      },
+      {
+        "intent": "affirm",
+        "text": "absolutely"
+      },
+      {
+        "intent": "affirm",
+        "text": "Oh, ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "ohk"
+      },
+      {
+        "intent": "affirm",
+        "text": "Sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "hm, i'd like that"
+      },
+      {
+        "intent": "affirm",
+        "text": "ja"
+      },
+      {
+        "intent": "affirm",
+        "text": "sure!"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes i accept"
+      },
+      {
+        "intent": "affirm",
+        "text": "Sweet"
+      },
+      {
+        "intent": "affirm",
+        "text": "amazing!"
+      },
+      {
+        "intent": "affirm",
+        "text": "how nice!"
+      },
+      {
+        "intent": "affirm",
+        "text": "cool!"
+      },
+      {
+        "intent": "affirm",
+        "text": "yay"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes accept please"
+      },
+      {
+        "intent": "affirm",
+        "text": "great"
+      },
+      {
+        "intent": "affirm",
+        "text": "oh cool"
+      },
+      {
+        "intent": "affirm",
+        "text": "fine"
+      },
+      {
+        "intent": "affirm",
+        "text": "that sounds great"
+      },
+      {
+        "intent": "affirm",
+        "text": "that sounds good"
+      },
+      {
+        "intent": "affirm",
+        "text": "wow"
+      },
+      {
+        "intent": "affirm",
+        "text": "epic"
+      },
+      {
+        "intent": "affirm",
+        "text": "nice"
+      },
+      {
+        "intent": "affirm",
+        "text": "awesome"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "I want pizza"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "please help with my ice cream it's dripping"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i want a non dripping ice cream"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "hey little mama let em whisper in your ear"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "someone call the police i think the bot died"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "show me a picture of a chicken"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "neither"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "I want french cuisine"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i am hungry"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "restaurants"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "restaurant"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "you're a loser lmao"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can i be shown a gluten free restaurant"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i don't care!!!!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i do not care how are you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "again?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "oh wait i gave you my work email address can i change it?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "hang on let me find it"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "stop it, i do not care!!!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "really? you're so touchy?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "how come?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "I changed my mind"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "what?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "did i break you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "I don't wanna tell the name of my company"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "that link doesn't work!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "you already have that"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "this is a really frustrating experience"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "no stop"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i want a french restaurant"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "shit bot"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "do you want to marry me?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "give me food"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i want food"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "udo, I want to marry you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i wanna party"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "shitmuncher"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "I like you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i want pizza"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i want pizza!!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "silly bot"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i want to eat"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "you are a stupid bot"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i hate you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Can I ask you questions first?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "is it a wasteland full of broken robot parts?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i can't deal with _your_ request"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "are you vegan"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "who will anser my email?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "do you sell vacuum robots?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i want to buy a roomba for my grandson"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "and make chicken noises into the phone"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "is barbara still married to you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "what's your wife doing this weekend"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "how are the kids"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "you're rather dull"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "personal or work?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "are you using Rasa Core and NLU ?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "tell me a joke"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "what else?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "I already told you! I'm a shitmuncher"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "I'm a shitmuncher"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "who are the engineers at rasa?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "who are they?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can we keep chatting?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "talk to me"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "who is your favourite robot?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "a tamed mouse will arrive at your doorstep in the next couple of days"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "you will know it from the single red rose it carries between its teeth"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i will tame a mouse for you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "isn't the newsletter just spam?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "go back"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can you help me with the docs?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "sorry, i cannot rephrase"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "and your REST API doesn't work"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i told you already"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "better than you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "oh my god, not again!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "you are a badass bot!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "lol"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "why do you need that?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "is that any of your business"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can you help me with your docs?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i immediately need help with implementing the coolest bot you can imagine"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can you help me with your docs"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can you tell me how to build a bot?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can you learn from our conversation?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "common, just try"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "hey, I contacted you a couple of days ago but didn't get any response, any news?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "please hurry, i have deadline in two weeks to deliver the bot it is for very big company"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "you are annoying"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Do I have to accept?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Is Rasa really smart?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "kannst du auch deutsch?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "are the newsletter worth the subscription?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "it's a pity"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i want more of you in my life!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "the one that is better than you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "you suck"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "bots are bad"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i dont like bots"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "do you have a phone number?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "where do you live?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "how are akela's cats doing?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "but I just told you that :("
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Why don’t you answer?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "But you're an english site :("
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can you help me to build a bot"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can we start a chat"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "wtf"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "wt"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "wth"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "what the hell"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "you piece of junk"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "you piece of shit"
+      },
+      {
+        "intent": "thank",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thank",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "thank",
+        "text": "Thanks bot"
+      },
+      {
+        "intent": "thank",
+        "text": "Thanks for that"
+      },
+      {
+        "intent": "thank",
+        "text": "cheers"
+      },
+      {
+        "intent": "thank",
+        "text": "cheers bro"
+      },
+      {
+        "intent": "thank",
+        "text": "ok thanks!"
+      },
+      {
+        "intent": "thank",
+        "text": "perfect thank you"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks a bunch for everything"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks for the help"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thank",
+        "text": "amazing, thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "cool, thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "cool thank you"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks!"
+      },
+      {
+        "intent": "thank",
+        "text": "Cool. Thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks this is great news"
+      },
+      {
+        "intent": "thank",
+        "text": "thank you"
+      },
+      {
+        "intent": "thank",
+        "text": "great thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "Thanks!"
+      },
+      {
+        "intent": "thank",
+        "text": "cool thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks for forum link, I'll check it out"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks!"
+      },
+      {
+        "intent": "ask_areyouupdated",
+        "text": "how often are you updated?"
+      },
+      {
+        "intent": "ask_areyouupdated",
+        "text": "when was the last time you were updated?"
+      },
+      {
+        "intent": "ask_areyouupdated",
+        "text": "tell me your last update date"
+      },
+      {
+        "intent": "ask_areyouupdated",
+        "text": "what is your updating schedule?"
+      },
+      {
+        "intent": "ask_areyouupdated",
+        "text": "when will be your database will be updated?"
+      },
+      {
+        "intent": "ask_areyouupdated",
+        "text": "when you will be updated again?"
+      },
+      {
+        "intent": "ask_areyouupdated",
+        "text": "are you even updated?"
+      },
+      {
+        "intent": "ask_areyouupdated",
+        "text": "whats your update frequency?"
+      },
+      {
+        "intent": "laugh",
+        "text": "hahahaha"
+      },
+      {
+        "intent": "laugh",
+        "text": "hehehehehe"
+      },
+      {
+        "intent": "laugh",
+        "text": "jajajajaja"
+      },
+      {
+        "intent": "laugh",
+        "text": "laughing out loud"
+      },
+      {
+        "intent": "laugh",
+        "text": "lol"
+      },
+      {
+        "intent": "laugh",
+        "text": "rolling on the floor laughing"
+      },
+      {
+        "intent": "laugh",
+        "text": "rotfl"
+      },
+      {
+        "intent": "laugh",
+        "text": "i can't stop laughing"
+      },
+      {
+        "intent": "laugh",
+        "text": "laughing my ass off"
+      },
+      {
+        "intent": "laugh",
+        "text": "lmao"
+      },
+      {
+        "intent": "laugh",
+        "text": "lololololol"
+      },
+      {
+        "intent": "laugh",
+        "text": "loooooool"
+      },
+      {
+        "intent": "laugh",
+        "text": "mwahahahaaha"
+      },
+      {
+        "intent": "laugh",
+        "text": "muahahahaha"
+      },
+      {
+        "intent": "laugh",
+        "text": "ha ha ha ha"
+      },
+      {
+        "intent": "laugh",
+        "text": "he he he he"
+      },
+      {
+        "intent": "laugh",
+        "text": "bhahahah"
+      },
+      {
+        "intent": "laugh",
+        "text": "ghahahah"
+      },
+      {
+        "intent": "laugh",
+        "text": "lulz"
+      },
+      {
+        "intent": "laugh",
+        "text": "you are very funny"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "what are current schemes?"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "schemes",
+            "entity": "infotype"
+          },
+          {
+            "start": 30,
+            "end": 33,
+            "value": "rbi",
+            "entity": "source"
+          }
+        ],
+        "text": "what are current schemes from rbi?"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "policies",
+            "entity": "infotype"
+          },
+          {
+            "start": 31,
+            "end": 34,
+            "value": "rbi",
+            "entity": "source"
+          }
+        ],
+        "text": "what are current policies from rbi?"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 30,
+            "end": 37,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "Can you tell me about current schemes?"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 34,
+            "end": 41,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "Can you tell me about yesterday's schemes?"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "schemes",
+            "entity": "infotype"
+          },
+          {
+            "start": 35,
+            "end": 41,
+            "value": "nabard",
+            "entity": "source"
+          }
+        ],
+        "text": "Can you tell me about schemes from nabard?"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 35,
+            "end": 42,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "I would like to know about current schemes"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 39,
+            "end": 46,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "I would like to know about yesterday's schemes"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "schemes",
+            "entity": "infotype"
+          },
+          {
+            "start": 40,
+            "end": 43,
+            "value": "dfs",
+            "entity": "source"
+          }
+        ],
+        "text": "I would like to know about schemes from dfs"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "schemes",
+            "entity": "infotype"
+          },
+          {
+            "start": 40,
+            "end": 72,
+            "value": "department of financial services",
+            "entity": "source"
+          }
+        ],
+        "text": "I would like to know about schemes from department of financial services"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "I want to know about current schemes"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 33,
+            "end": 40,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "I want to know about yesterday's schemes"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "nabard",
+            "entity": "source"
+          },
+          {
+            "start": 28,
+            "end": 35,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "I want to know about nabard schemes"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "schemes",
+            "entity": "infotype"
+          },
+          {
+            "start": 34,
+            "end": 55,
+            "value": "reserve bank of india",
+            "entity": "source"
+          }
+        ],
+        "text": "I want to know about schemes from reserve bank of india"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "Tell me about current schemes"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "policies",
+            "entity": "infotype"
+          }
+        ],
+        "text": "Tell me about current policies"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "scheme",
+            "entity": "infotype"
+          }
+        ],
+        "text": "Tell me about yesterday's scheme"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "schemes",
+            "entity": "infotype"
+          },
+          {
+            "start": 27,
+            "end": 48,
+            "value": "reserve bank of india",
+            "entity": "source"
+          }
+        ],
+        "text": "Tell me about schemes from reserve bank of india"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "value": "rbi",
+            "entity": "source"
+          },
+          {
+            "start": 18,
+            "end": 25,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "Tell me about rbi schemes"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "nabard",
+            "entity": "source"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "Tell me about nabard schemes"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "value": "dfs",
+            "entity": "source"
+          },
+          {
+            "start": 18,
+            "end": 25,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "Tell me about dfs schemes"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "Please tell me about current schemes"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 33,
+            "end": 40,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "Please tell me about yesterday's schemes"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "schemes",
+            "entity": "infotype"
+          },
+          {
+            "start": 34,
+            "end": 85,
+            "value": "national bank for agriculture and rural development",
+            "entity": "source"
+          }
+        ],
+        "text": "Please tell me about schemes from national bank for agriculture and rural development"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "ok, show me schemes"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "ok, show me all schemes"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "schemes",
+            "entity": "infotype"
+          },
+          {
+            "start": 25,
+            "end": 28,
+            "value": "dfs",
+            "entity": "source"
+          }
+        ],
+        "text": "ok, show me schemes from dfs"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "show me the list of bank schemes sponsored by government"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "value": "schemes",
+            "entity": "infotype"
+          },
+          {
+            "start": 62,
+            "end": 65,
+            "value": "dfs",
+            "entity": "source"
+          }
+        ],
+        "text": "show me the list of bank schemes sponsored by government from dfs section"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "fetch some schemes"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "schemes",
+            "entity": "infotype"
+          },
+          {
+            "start": 24,
+            "end": 30,
+            "value": "nabard",
+            "entity": "source"
+          }
+        ],
+        "text": "fetch some schemes from nabard"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "list all the schemes"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "schemes",
+            "entity": "infotype"
+          },
+          {
+            "start": 26,
+            "end": 29,
+            "value": "rbi",
+            "entity": "source"
+          }
+        ],
+        "text": "list all the schemes from rbi"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "how can I know about which schemes are available at the moment?"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "tell me about loan schemes"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "give me details of loan schemes"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "policies",
+            "entity": "infotype"
+          }
+        ],
+        "text": "show details of insurance policies"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "policies",
+            "entity": "infotype"
+          }
+        ],
+        "text": "tell me about insurance policies"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "schemes",
+            "entity": "infotype"
+          },
+          {
+            "start": 19,
+            "end": 22,
+            "value": "dfs",
+            "entity": "source"
+          }
+        ],
+        "text": "schemes related to dfs"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "nabard",
+            "entity": "source"
+          },
+          {
+            "start": 20,
+            "end": 27,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "what are the nabard schemes?"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "schemes",
+            "entity": "infotype"
+          },
+          {
+            "start": 29,
+            "end": 32,
+            "value": "rbi",
+            "entity": "source"
+          }
+        ],
+        "text": "give some schemes related to rbi"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "schemes",
+            "entity": "infotype"
+          },
+          {
+            "start": 31,
+            "end": 37,
+            "value": "nabard",
+            "entity": "source"
+          }
+        ],
+        "text": "can you please show schemes by nabard"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "schemes",
+            "entity": "infotype"
+          },
+          {
+            "start": 29,
+            "end": 32,
+            "value": "dfs",
+            "entity": "source"
+          }
+        ],
+        "text": "help me with some schemes of dfs"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "schemes",
+            "entity": "infotype"
+          },
+          {
+            "start": 29,
+            "end": 32,
+            "value": "RBI",
+            "entity": "source"
+          }
+        ],
+        "text": "list some schemes related to RBI"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "NABARD",
+            "entity": "source"
+          },
+          {
+            "start": 26,
+            "end": 33,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "i want to view the NABARD schemes"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "nabard",
+            "entity": "source"
+          },
+          {
+            "start": 7,
+            "end": 14,
+            "value": "schemes",
+            "entity": "infotype"
+          }
+        ],
+        "text": "nabard schemes"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "rbi",
+            "entity": "source"
+          }
+        ],
+        "text": "rbi"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "dfs",
+            "entity": "source"
+          }
+        ],
+        "text": "what is dfs?"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "nabard",
+            "entity": "source"
+          }
+        ],
+        "text": "can you tell me about nabard?"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 21,
+            "end": 24,
+            "value": "rbi",
+            "entity": "source"
+          }
+        ],
+        "text": "i want to know about rbi"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 21,
+            "end": 24,
+            "value": "dfs",
+            "entity": "source"
+          }
+        ],
+        "text": "please tell me about dfs"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "nabard",
+            "entity": "source"
+          }
+        ],
+        "text": "tell me about nabard"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "rbi",
+            "entity": "source"
+          }
+        ],
+        "text": "give me details about rbi"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 21,
+            "end": 24,
+            "value": "dfs",
+            "entity": "source"
+          }
+        ],
+        "text": "tell me full form of dfs"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "nabard",
+            "entity": "source"
+          }
+        ],
+        "text": "what is the full form of nabard?"
+      },
+      {
+        "intent": "ask_scheme",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "rbi",
+            "entity": "source"
+          }
+        ],
+        "text": "help me with rbi"
+      },
+      {
+        "intent": "ask_specific_scheme",
+        "entities": [
+          {
+            "start": 0,
+            "end": 41,
+            "value": "Dairy Entrepreneurship Development Scheme",
+            "entity": "scheme_name"
+          }
+        ],
+        "text": "Dairy Entrepreneurship Development Scheme"
+      },
+      {
+        "intent": "ask_specific_scheme",
+        "entities": [
+          {
+            "start": 8,
+            "end": 41,
+            "value": "Capital Investment Subsidy Scheme",
+            "entity": "scheme_name"
+          }
+        ],
+        "text": "what is Capital Investment Subsidy Scheme?"
+      },
+      {
+        "intent": "ask_specific_scheme",
+        "entities": [
+          {
+            "start": 22,
+            "end": 64,
+            "value": "Agriclinic and Agribusiness Centres Scheme",
+            "entity": "scheme_name"
+          }
+        ],
+        "text": "can you tell me about Agriclinic and Agribusiness Centres Scheme?"
+      },
+      {
+        "intent": "ask_specific_scheme",
+        "entities": [
+          {
+            "start": 27,
+            "end": 53,
+            "value": "National Livestock Mission",
+            "entity": "scheme_name"
+          }
+        ],
+        "text": "i would like to know about National Livestock Mission"
+      },
+      {
+        "intent": "ask_specific_scheme",
+        "entities": [
+          {
+            "start": 14,
+            "end": 50,
+            "value": "Ensuring End Use of Subsidy Released",
+            "entity": "scheme_name"
+          }
+        ],
+        "text": "tell me about Ensuring End Use of Subsidy Released"
+      },
+      {
+        "intent": "ask_specific_scheme",
+        "entities": [
+          {
+            "start": 21,
+            "end": 47,
+            "value": "Interest Subvention Scheme",
+            "entity": "scheme_name"
+          }
+        ],
+        "text": "please tell me about Interest Subvention Scheme"
+      },
+      {
+        "intent": "ask_specific_scheme",
+        "entities": [
+          {
+            "start": 27,
+            "end": 68,
+            "value": "New Agricultural Marketing Infrastructure",
+            "entity": "scheme_name"
+          }
+        ],
+        "text": "ok, show me information of New Agricultural Marketing Infrastructure"
+      },
+      {
+        "intent": "ask_specific_scheme",
+        "entities": [
+          {
+            "start": 17,
+            "end": 53,
+            "value": "Credit Linked Capital Subsidy Scheme",
+            "entity": "scheme_name"
+          }
+        ],
+        "text": "fetch details of Credit Linked Capital Subsidy Scheme"
+      },
+      {
+        "intent": "ask_specific_scheme",
+        "entities": [
+          {
+            "start": 21,
+            "end": 47,
+            "value": "Deendayal Antyodaya Yojana",
+            "entity": "scheme_name"
+          }
+        ],
+        "text": "fetch information of Deendayal Antyodaya Yojana"
+      },
+      {
+        "intent": "ask_specific_scheme",
+        "entities": [
+          {
+            "start": 26,
+            "end": 60,
+            "value": "Pradhan Mantri Vaya Vandana Yojana",
+            "entity": "scheme_name"
+          }
+        ],
+        "text": "give me information about Pradhan Mantri Vaya Vandana Yojana"
+      },
+      {
+        "intent": "ask_specific_scheme",
+        "entities": [
+          {
+            "start": 19,
+            "end": 60,
+            "value": "Dairy Entrepreneurship Development Scheme",
+            "entity": "scheme_name"
+          }
+        ],
+        "text": "give me details of Dairy Entrepreneurship Development Scheme"
+      },
+      {
+        "intent": "ask_specific_scheme",
+        "entities": [
+          {
+            "start": 41,
+            "end": 74,
+            "value": "Capital Investment Subsidy Scheme",
+            "entity": "scheme_name"
+          }
+        ],
+        "text": "can you please show me information about Capital Investment Subsidy Scheme"
+      },
+      {
+        "intent": "ask_specific_scheme",
+        "entities": [
+          {
+            "start": 38,
+            "end": 80,
+            "value": "Agriclinic and Agribusiness Centres Scheme",
+            "entity": "scheme_name"
+          }
+        ],
+        "text": "can you please show me information of Agriclinic and Agribusiness Centres Scheme"
+      },
+      {
+        "intent": "ask_specific_scheme",
+        "entities": [
+          {
+            "start": 13,
+            "end": 39,
+            "value": "National Livestock Mission",
+            "entity": "scheme_name"
+          }
+        ],
+        "text": "help me with National Livestock Mission"
+      },
+      {
+        "intent": "ask_specific_scheme",
+        "entities": [
+          {
+            "start": 21,
+            "end": 57,
+            "value": "Ensuring End Use of Subsidy Released",
+            "entity": "scheme_name"
+          }
+        ],
+        "text": "i want to know about Ensuring End Use of Subsidy Released"
+      },
+      {
+        "intent": "ask_specific_scheme",
+        "entities": [
+          {
+            "start": 30,
+            "end": 56,
+            "value": "Interest Subvention Scheme",
+            "entity": "scheme_name"
+          }
+        ],
+        "text": "i want to view information of Interest Subvention Scheme"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [
+      {
+        "name": "source",
+        "elements": "data/source_list.txt"
+      },
+      {
+        "name": "scheme_name",
+        "elements": "data/scheme_names.txt"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "rbi",
+        "synonyms": [
+          "reserve bank of india"
+        ]
+      },
+      {
+        "value": "nabard",
+        "synonyms": [
+          "national bank for agriculture and rural development",
+          "national bank for agriculture & rural development"
+        ]
+      },
+      {
+        "value": "dfs",
+        "synonyms": [
+          "department of financial services"
+        ]
+      },
+      {
+        "value": "schemes",
+        "synonyms": [
+          "scheme",
+          "policies",
+          "policy"
+        ]
+      },
+      {
+        "value": "information",
+        "synonyms": [
+          "info",
+          "detail",
+          "details"
+        ]
+      },
+      {
+        "value": "Agriclinic and Agribusiness Centres Scheme",
+        "synonyms": [
+          "Agriclinic & Agribusiness Centres Scheme"
+        ]
+      },
+      {
+        "value": "Ensuring End Use of Subsidy Released",
+        "synonyms": [
+          "Ensuring End Use of Subsidy"
+        ]
+      },
+      {
+        "value": "Deendayal Antyodaya Yojana in NULM",
+        "synonyms": [
+          "Deendayal Antyodaya Yojana NULM"
+        ]
+      },
+      {
+        "value": "Stand Up India Scheme",
+        "synonyms": [
+          "Standup India Scheme"
+        ]
+      },
+      {
+        "value": "Pradhan Mantri Vaya Vandana Yojana",
+        "synonyms": [
+          "Pradhan Mantri Vay Vandana Yojana"
+        ]
+      }
+    ]
+  }
+}

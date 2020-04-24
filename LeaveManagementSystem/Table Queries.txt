@@ -1,0 +1,11 @@
+create table users(uid int(13) primary key auto_increment, fname varchar(51), lname varchar(51), email varchar(101), password varchar(101), department varchar(51), designation varchar(51));
+
+create table admins(aid int(13) primary key auto_increment, fname varchar(51), lname varchar(51), email varchar(101), password varchar(101), department varchar(51), designation varchar(51));
+
+create table leaves(lid int(18) primary key auto_increment, name varchar(102), email varchar(101), uid int(13), department varchar(51), designation varchar(51), leavetype varchar(33), fromdate date, todate date, brief varchar(300), status varchar(21));
+
+insert into admins(fname, lname, email, password, department, designation) values ('Karan', 'Raj Singh', 'karan@gmail.com', 'karan', 'Department 1', 'Department Head');
+
+insert into admins(fname, lname, email, password, department, designation) values ('Deepanshu', 'Samdhani', 'deepanshu@gmail.com', 'deepanshu', 'Department 2', 'Department Head');
+
+insert into admins(fname, lname, email, password, department, designation) values ('Super', 'Admin', 'admin@gmail.com', 'admin', 'Department 3', 'Department Head');

@@ -1,0 +1,129 @@
+body{
+
+}
+h2{
+	font-family:Chilanka;
+	text-align: right;
+	right:0;
+	margin:0;
+	font-size:15px;
+	position:fixed;
+}	
+div.polaroid {
+  width: 300px;
+  height:220px;
+  margin-left: 55%;
+  margin: 0px 100px 50px 90px;
+  background-color: gray;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 9px 30px 0 rgba(0, 0, 0, 0.19);
+  padding-top: 80px 50px ;
+  
+ }
+
+
+div.polaroid0 {
+  width: 300px;
+  height:220px;
+  margin-left: 60%;
+  margin-top: 0px;
+  background-color: gray;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 9px 30px 0 rgba(0, 0, 0, 0.19);
+  padding-top: 80px 50px 0px 0px;
+  
+ }
+
+div.polaroid1{
+  width: 293px;
+  height:220px;
+  margin: 0px 10px 150px 90px;
+  margin-left: 38%;
+  background-color: gray;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 9px 30px 0 rgba(0, 0, 0, 0.19);
+  padding-top: 80px 30px 0px 0px;
+ 
+ }
+
+div.container12{
+	width:200px;
+	height:100px;
+	margin-left:35%;
+	margin-right: 0px;
+	background-color: "red";
+}
+
+.container12 img{
+	margin-top: 70%;
+	opacity: 0.8;
+	
+}
+div.container4{
+	margin-left:0px;
+	margin-top: 0px;
+}
+
+.container4 img{
+	margin-top:auto;
+	margin-left: 0px;
+	border-radius: 50%;
+	position: fixed;
+	opacity: 0.5;
+
+}
+
+.gallery{
+	margin-top:2%;
+	display:flex;
+	
+}
+.container h1{
+
+}
+.container3 h2{
+	padding-right: 1%;
+	font-size: 20px;
+}
+div.container {
+  text-align: center;
+  margin-right:0;
+}
+
+div.container0 {
+  text-align: center;
+  margin-right: 0;
+
+}
+div.container1 {
+  text-align: center;
+
+  margin-left:auto;	 
+  margin-right:auto;
+}
+
+
+h1{
+	text-align: center;
+	background-color: #bdc5e5;
+	font-size: 50px;
+	margin-top:-30px;
+	padding:0;
+	overflow: 0;
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	height:140px;
+	font-style:italic;
+	font-family: 'Amarante', cursive;
+	
+}
+
+
+.responsive {
+    padding: 0 16px;
+    float: center;
+    width: 24.99999%;
+    height:50px;
+}

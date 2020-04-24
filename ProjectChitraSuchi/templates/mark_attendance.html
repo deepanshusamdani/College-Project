@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Chitra-Suchi</title>
+    <link  rel="stylesheet" type="text/css" href="/static/mark_attendance.css">
+    <link href="https://fonts.googleapis.com/css?family=Amarante|Indie+Flower|Yatra+One" rel="stylesheet">
+
+        <!-- TO SHOW ALERT -->
+    <script type="text/javascript">
+
+        var status = '{{ message }}';
+        if (status == "marked"){
+            alert('Successfully Marked Attendance');
+            window.location = '/';
+        }
+        else if (status == "already_marked"){
+          alert("You Have Already Marked Attendance for Today");
+          window.location = '/';
+        }
+        else if (status == "no_sid"){
+          if (window.confirm('You Are Not Enrolled. Press OK to Enroll')){
+                window.location ='/enroll';
+            }
+            else {
+              window.location ='/';
+            }
+        }
+        else {
+        }
+        
+    </script>
+
+  </head>
+  <body bgcolor="#fdddfe" style="width:1225px height:500px">
+    <h1>Mark Attendance</h1>
+    <div class="container">
+    <img  src="{{ url_for('video_feed') }}"> 
+	</div>
+    <br><br>
+    
+    <a href="{{ url_for('capture_image')}}" class="button">mark attendance</a>
+  </body>
+</html>

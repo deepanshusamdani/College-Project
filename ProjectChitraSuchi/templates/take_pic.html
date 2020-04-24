@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>Chitra-Suchi</title>
+    <link  rel="stylesheet" type="text/css" href="/static/mark_attendance.css">
+    <link href="https://fonts.googleapis.com/css?family=Amarante|Indie+Flower|Yatra+One" rel="stylesheet">
+
+        <!-- TO SHOW ALERT -->
+    <script type="text/javascript">
+
+        var status = '{{ message }}';
+        if (status == "enrolled"){
+            if (window.confirm('Successfully Enrolled. Press OK to Mark Attendance')){
+                window.location ='/mark_attendance';
+            }
+            else {
+              window.location ='/';
+            }
+        }
+        else if (status == "mark_attendance"){
+            if (window.confirm('Already Enrolled. Press OK to Mark Attendance')){
+                window.location ='/mark_attendance';
+            }
+            else {
+              window.location ='/';
+            }
+        }
+        else if (status == "not_able_to_enroll"){
+          alert("Unable To Process! Try A Gain Later");
+          window.location = '/';
+        }
+        else {
+
+        }
+        
+    </script>
+
+  </head>
+  <body bgcolor="#fdddfe" style="width:1225px height:500px">
+    <h1>Take Picture to Enroll Into System</h1>
+    <div class="container">
+    <img  src="{{ url_for('video_feed') }}"> 
+	</div>
+    <br><br>
+    <form action="/takepic">
+
+      <input type='submit' value='TAKE PIC AND ENROLL'>
+
+
+    <table border = 1 >
+         {% for key, value in result.items() %}
+            <tr>
+               <th> {{ key }} </th>
+               <td > {{ value }} </td>
+            </tr>
+         {% endfor %}
+      </table>
+
+    </form>
+    
+
+  </body>
+</html>

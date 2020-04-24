@@ -1,0 +1,164 @@
+.container 
+{
+width :600px;
+height:100px;
+background-color: #f6cffc ;
+margin: auto;
+/*margin-left:330px;*/
+margin-top:50px;
+margin-bottom:180px;
+}
+
+h1
+{
+  font-size:50px;
+  text-align:center;        
+  background-blend-mode: soft-light;
+  margin-bottom: 50px;
+  font-family:chilanka;
+  font-style: italic;
+  color:#151739;
+}
+
+.container1
+{
+  width :600px;
+  height:535px;
+  background-color:#34495E;
+  margin: auto;
+  /*margin-left:340px;*/
+  margin-top:-40px;
+}
+
+.container2 
+{ 
+width :10px;
+height:535px;
+background-color:#f78367;
+margin-left:0px;
+margin-top:-134px;
+
+}
+
+ .container2 img
+{ 
+  width:120px;
+  height:120px;
+  margin-top:-50px;
+  margin-left:231px;
+  margin-bottom:60px; 
+}
+
+.container3 
+{ 
+width :10px;
+height:535px;
+background-color:#f78367;
+margin-left:589.5px;
+margin-top:-536px;
+}
+
+.form-input::before
+{
+position:absolute;
+font-family:"gigi";
+padding-left:5px;
+color:#9859B6;
+padding-top:5px;
+font-size:35px;
+margin: auto
+}   
+
+input[type="text"]
+{
+height:45px;
+width:400px;
+font-size:18px;
+margin:bottom:60px;
+margin-left: 95px;
+margin-top: -15px;
+background-color: #ebd2f8;
+padding-left:40px;
+border-radius: 25px;
+}
+
+
+input[type="text1"]
+{
+height:45px;
+width:400px;
+font-size:18px;
+margin:bottom:60px;
+margin-left: 95px;
+margin-top: 10px;
+background-color: #ebd2f8;
+padding-left:40px;
+border-radius: 25px;
+}
+
+input[type="date"]
+{
+height:45px;
+width:400px;
+font-size:18px;
+margin:bottom:60px;
+margin-left: 95px;;
+margin-top: 10px;
+background-color: #ebd2f8;
+padding-left:40px;
+border-radius: 25px;
+}
+
+input[type="email"]
+{
+height:45px;
+width:400px;
+font-size:18px;
+margin:bottom:60px;
+margin-left: 95px;
+margin-top: 10px;
+background-color: #ebd2f8;
+padding-left:40px;
+border-radius: 25px;
+}
+
+select
+{
+height:45px;
+width:400px;
+font-size:18px;
+margin:bottom:60px;
+margin-left: 95px;
+background-color: #ebd2f8;
+margin-top: 10px;
+padding-left:40px;
+border-radius: 25px;
+}
+
+input[type="text2"]
+{
+height:45px;
+width:400px;
+font-size:18px;
+margin:bottom:60px;
+margin-left: 95px;
+margin-top: 10px;
+background-color: #ebd2f8;
+padding-left:40px;
+border-radius: 25px;
+}
+
+input[type="submit"]
+{
+height:45px;
+width:285px;
+margin-left: 150px;
+margin-top: 40px;
+color: black;
+font-size: 18px;
+border: none;
+cursor: pointer;
+border-radius: 25px;
+text-align: center;
+background-color: #f78367
+}

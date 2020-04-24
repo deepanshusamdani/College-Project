@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Student Database</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style type="text/css">
+
+  .container{
+    padding-top:4%;
+  }
+  
+  .table-bordered {
+    font-size: 18px;
+     border-collapse: collapse; 
+     text-align:center;  
+     border: 2px solid black;
+  }
+
+  .table-bordered tr:nth-child(even){
+    background-color:  #bde6d3 ;          
+  }
+
+  .table-bordered tr{
+    background-color:  #78a278; 
+         
+  }
+
+   .table-bordered tr:hover{
+    background-color: #84b49e;     
+  }
+   .table-bordered td{
+     border:2px solid black;   
+  }
+  .table-bordered th{
+    background-color: #525e8c;
+    text-align:center;  
+         
+  }
+  .button{
+    color:#C70039;
+    display: inline-block;
+    width:70px;
+    height:20px;
+    box-shadow: 1px 2px 5px #000000;
+  }
+  .container12{
+    position:fixed;
+    bottom: 80%;
+    right:5.8%; 
+    cursor: pointer;
+
+  }
+
+  body{
+    background-color: #cdbf97;
+  }
+  .container h2{
+    font-size:50px;
+    font-style:italic;
+  }
+
+  </style>
+
+</head>
+<body>
+
+<div class="container12">
+  <button onclick="window.location='/showgraph'"> ATTENDENCE ANALYSIS</button>
+</div>
+<div class="container">
+
+  <h2>Enrolled Students</h2>            
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Subject_Id</th>
+        <th>Name</th>
+        <th>LastName</th>
+        <th>DOB</th>
+        <th>Email</th>
+        <th>Branch</th>
+        <th>Contact</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for i in data %}
+      <tr>
+        <td>{{i[0]}}</td>
+        <td>{{i[1]}}</td>
+        <td>{{i[2]}}</td>
+        <td>{{i[3]}}</td>
+        <td>{{i[4]}}</td>
+        <td>{{i[5]}}</td>
+        <td>{{i[6]}}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+.container
+{
+width :500px;
+height:500px;
+background-color: #030303 ;
+margin-left:360px;
+margin-top:60px;
+margin-bottom: 60px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    bottom: 40%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.container img
+{
+width: 400px;
+height:400px;
+margin-top:50px;
+margin-left:50px;
+}
+
+h1
+{
+
+font-size:45px;
+background-blend-mode: soft-light;
+margin-bottom: 50px;
+margin-top:15px;
+margin-left:100px;
+font-family: 'Amarante', cursive;
+font-style: italic;
+color:#151739;
+}
